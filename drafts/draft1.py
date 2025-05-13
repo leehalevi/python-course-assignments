@@ -15,5 +15,6 @@ print(f"Hello, {name}" + "!")
 
 # READ ERROR MESSAGES - improtant.
 # we can add int + floats. pretty much. sometimes it messes it up.
-# You need to make sure that it doesn't affect your code => because when making comparissons, it would not be equal.
+# You need to make sure that it doesn't affect your code =>
+# because when making comparissons, it would not be equal.
 # A literal value - type("hi") instead of just "hi"
