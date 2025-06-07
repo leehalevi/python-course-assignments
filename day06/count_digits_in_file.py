@@ -36,13 +36,12 @@ def save_file(numbers):
 
 
 def main():
-    with open(sys.argv[1], 'r', encoding='utf-8') as f:
+    file_name = "count_digits_file"
+    with open(file_name, 'r', encoding='utf-8') as f:
         content = f.read()
     numbers = [int(num) for num in content.split()]
 
     save_file(numbers)
-
-    print(number_counting(numbers))
 
 if __name__ == "__main__":
     main()

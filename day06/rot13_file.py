@@ -17,7 +17,7 @@ def rot13(file_content):
     return rot13_str
 
 def main():
-    file_name = sys.argv[1]
+    file_name = "rot13_file"
     # Open file and read
     with open(file_name, 'r', encoding='utf-8') as f:
         content = f.read()
